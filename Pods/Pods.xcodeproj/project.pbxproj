@@ -17,6 +17,8 @@
 		91FC413DA63DA0F01749DBAD1D21D590 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		92E09A8CF268989A27D75AC4E3675283 /* Pods-Open-BankUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD98104726C4F37CE7DE72B8AD0B0D7E /* Pods-Open-BankUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B7E47CCC8D5C8ED3478E896465990EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9BD4A1C01E2C66880030BB86 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD4A1BE1E2C66880030BB86 /* Fabric.framework */; };
+		9BD4A1C11E2C66880030BB86 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD4A1BF1E2C66880030BB86 /* Crashlytics.framework */; };
 		A0D96E2EADE61204BA516D52AEE56890 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77BEC39A4D7866A6DC4FAE719323EDB /* Animations.swift */; };
 		A318DCD12DD60F179AEE1C744D59DF62 /* Pods-Open-BankTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 523CB59587612F873A3B31F5CEB15255 /* Pods-Open-BankTests-dummy.m */; };
 		A9197A0CBECAB58A0352D59DD3A5D9B0 /* Pods-Open-BankUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A93A696CDCAB7A2EE310C5C136CAD5A3 /* Pods-Open-BankUITests-dummy.m */; };
@@ -43,7 +45,7 @@
 		17B63F9159D19F63D8A5D34AD909FE2D /* RevealingSplashView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-umbrella.h"; sourceTree = "<group>"; };
 		19072BD29D9D1364EC57BC2F33D6D00A /* Pods-Open-BankTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Open-BankTests-frameworks.sh"; sourceTree = "<group>"; };
 		1F947FC524F821E881A8A06956A2AB47 /* RevealingSplashView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RevealingSplashView.swift; path = RevealingSplashView/RevealingSplashView.swift; sourceTree = "<group>"; };
-		25205800D17B66315060DD7A60A42E8F /* RevealingSplashView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RevealingSplashView.modulemap; sourceTree = "<group>"; };
+		25205800D17B66315060DD7A60A42E8F /* RevealingSplashView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RevealingSplashView.modulemap; sourceTree = "<group>"; };
 		256404BFBD69429B5B7E36770528C803 /* RevealingSplashView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RevealingSplashView-dummy.m"; sourceTree = "<group>"; };
 		29CCADCF5DAE1B869CF07601A14E839C /* Pods-Open-Bank-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Open-Bank-acknowledgements.plist"; sourceTree = "<group>"; };
 		2ABD1C2441B888A9AD66729C6FA0E5AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,22 +53,24 @@
 		35392293F5F2F2AA30A454B51BE2E92C /* RevealingSplashView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevealingSplashView.xcconfig; sourceTree = "<group>"; };
 		3C398A106E7726D5AEF68995A43DB347 /* Pods-Open-BankTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Open-BankTests-resources.sh"; sourceTree = "<group>"; };
 		3FC22CE4369F74BDCEAC33CD2D49E4D7 /* Pods-Open-Bank-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Open-Bank-umbrella.h"; sourceTree = "<group>"; };
-		4A2DCF21F760BBD7F6A5DA11576F2EB7 /* RevealingSplashView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RevealingSplashView.framework; path = RevealingSplashView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2DCF21F760BBD7F6A5DA11576F2EB7 /* RevealingSplashView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RevealingSplashView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A50589929271F1538B102C5A0E53708 /* RevealingSplashView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-prefix.pch"; sourceTree = "<group>"; };
 		4ADF1269202E3F593BC31E20CD4E2D98 /* Pods-Open-BankUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Open-BankUITests-resources.sh"; sourceTree = "<group>"; };
-		50A2AA142811858C2D04F820E453AE29 /* Pods_Open_BankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Open_BankTests.framework; path = "Pods-Open-BankTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A2AA142811858C2D04F820E453AE29 /* Pods_Open_BankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Open_BankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		523CB59587612F873A3B31F5CEB15255 /* Pods-Open-BankTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Open-BankTests-dummy.m"; sourceTree = "<group>"; };
 		6FC481356D0AF3A5E72A908DD53FAC33 /* Pods-Open-Bank-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Open-Bank-frameworks.sh"; sourceTree = "<group>"; };
 		79C1EA7D2BA43D05632F6B7F1B2DB813 /* Pods-Open-Bank-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Open-Bank-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7BAF2941D6F9E4C91C18651641A70F77 /* Pods-Open-BankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Open-BankTests.debug.xcconfig"; sourceTree = "<group>"; };
 		83EA58574FE7567BE03B5B82B3EFD26B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F7FECA4F17E5F86294E27A41D4299C8 /* Pods-Open-Bank.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Open-Bank.modulemap"; sourceTree = "<group>"; };
-		92147A28EC5987CDAF8FE4D7F24BAFE2 /* Pods-Open-BankUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Open-BankUITests.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F7FECA4F17E5F86294E27A41D4299C8 /* Pods-Open-Bank.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Open-Bank.modulemap"; sourceTree = "<group>"; };
+		92147A28EC5987CDAF8FE4D7F24BAFE2 /* Pods-Open-BankUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Open-BankUITests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		959AF827D9130EFC6696B3131DEE28ED /* SplashAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimationType.swift; path = RevealingSplashView/SplashAnimationType.swift; sourceTree = "<group>"; };
 		9905643B8BC47FC465FAF91439916C46 /* Pods-Open-BankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Open-BankTests.release.xcconfig"; sourceTree = "<group>"; };
 		9984E47A2168B40BA93B9389B3275A2B /* Pods-Open-BankUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Open-BankUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9B9753F90B091DAB5DF9AAAB1733B314 /* Pods-Open-Bank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Open-Bank.release.xcconfig"; sourceTree = "<group>"; };
+		9BD4A1BE1E2C66880030BB86 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = ../Fabric.framework; sourceTree = "<group>"; };
+		9BD4A1BF1E2C66880030BB86 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = ../Crashlytics.framework; sourceTree = "<group>"; };
 		A0C04E472D82DD1DC7CFCCEBC68C5297 /* Pods-Open-BankUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Open-BankUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A93A696CDCAB7A2EE310C5C136CAD5A3 /* Pods-Open-BankUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Open-BankUITests-dummy.m"; sourceTree = "<group>"; };
 		A96E32F876B822B26E7B434E11193FE0 /* Pods-Open-Bank-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Open-Bank-resources.sh"; sourceTree = "<group>"; };
@@ -76,12 +80,12 @@
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CD98104726C4F37CE7DE72B8AD0B0D7E /* Pods-Open-BankUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Open-BankUITests-umbrella.h"; sourceTree = "<group>"; };
 		D38B966E01071A170C6A4D58410F40FF /* RevealingSplashView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevealingSplashView.h; path = RevealingSplashView/RevealingSplashView.h; sourceTree = "<group>"; };
-		DAF95A678C130249322CD6C099BA0150 /* Pods_Open_Bank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Open_Bank.framework; path = "Pods-Open-Bank.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF95A678C130249322CD6C099BA0150 /* Pods_Open_Bank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Open_Bank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CB74555DE246A8619A84A6C8C416CD /* Pods-Open-BankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Open-BankUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E42AAB3EE965653ABE6FE4B968F7289B /* Pods-Open-BankTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Open-BankTests.modulemap"; sourceTree = "<group>"; };
+		E42AAB3EE965653ABE6FE4B968F7289B /* Pods-Open-BankTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Open-BankTests.modulemap"; sourceTree = "<group>"; };
 		E5C5B3FE383ECEDEA2BA39781285C71A /* Pods-Open-BankTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Open-BankTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E5F195F95EBFD8BA43246FB8014A032F /* Pods-Open-BankUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Open-BankUITests-frameworks.sh"; sourceTree = "<group>"; };
-		E66EA2C3866449B6C518A135AB8A3538 /* Pods_Open_BankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Open_BankUITests.framework; path = "Pods-Open-BankUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E66EA2C3866449B6C518A135AB8A3538 /* Pods_Open_BankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Open_BankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7661B47528200D5F972740C4D896897 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED0FB8A98D30F65F9E585D669967BC1E /* SplashAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimatable.swift; path = RevealingSplashView/SplashAnimatable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +96,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FDDB506659573F3A1A9436C2F7D763F /* Foundation.framework in Frameworks */,
+				9BD4A1C11E2C66880030BB86 /* Crashlytics.framework in Frameworks */,
+				9BD4A1C01E2C66880030BB86 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +229,8 @@
 		9FFC594198A57E352D731DC5A41EFBE4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				9BD4A1BE1E2C66880030BB86 /* Fabric.framework */,
+				9BD4A1BF1E2C66880030BB86 /* Crashlytics.framework */,
 				93EA9F9A30FE269EAAB087506659D076 /* Pods-Open-Bank */,
 				5656913EF60FE17DE96D55010036A2C6 /* Pods-Open-BankTests */,
 				0D7E0840C3D08668CCB8950365B3449E /* Pods-Open-BankUITests */,
@@ -256,7 +264,6 @@
 				959AF827D9130EFC6696B3131DEE28ED /* SplashAnimationType.swift */,
 				6156486D19AE36FA41FFCA873842023B /* Support Files */,
 			);
-			name = RevealingSplashView;
 			path = RevealingSplashView;
 			sourceTree = "<group>";
 		};
