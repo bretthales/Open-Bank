@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>PasswordTextField-PasswordTextField.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PasswordTextField.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Open-Bank.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -19,7 +29,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>RevealingSplashView.xcscheme</key>
+		<key>Stripe-Stripe.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Stripe.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,17 +42,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1F77B6253759C0F3BEDDB63152D994E9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>32B1FE3D4A6BE9FA2B76A9DC3E1F0CD6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>956D617B2467FAFC6BCBDCD24B1F9B59</key>
+		<key>7FF7D710F5489D1890599C269A1FF1BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C94E4B34B3742A46711F31B262DC90E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF3EAA3A59A99188962F892AC4B8E9B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D0EE00211887636876347E48B2DD0817</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DCCC3B144EF44F5E8B9DA294E776E456</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import RevealingSplashView
+
 
 
 class ViewController: UIViewController {
@@ -17,8 +17,8 @@ class ViewController: UIViewController {
         
        
 
-
     }
+
 
 }
 
