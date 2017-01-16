@@ -19,6 +19,10 @@
 		9B7E47CCC8D5C8ED3478E896465990EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		9BD4A1C01E2C66880030BB86 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD4A1BE1E2C66880030BB86 /* Fabric.framework */; };
 		9BD4A1C11E2C66880030BB86 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD4A1BF1E2C66880030BB86 /* Crashlytics.framework */; };
+		9BD4A1C41E2C69870030BB86 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD4A1C21E2C69870030BB86 /* Fabric.framework */; };
+		9BD4A1C51E2C69870030BB86 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD4A1C31E2C69870030BB86 /* Crashlytics.framework */; };
+		9BD4A1CB1E2C6FBA0030BB86 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD4A1C91E2C6FBA0030BB86 /* Fabric.framework */; };
+		9BD4A1CC1E2C6FBA0030BB86 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD4A1CA1E2C6FBA0030BB86 /* Crashlytics.framework */; };
 		A0D96E2EADE61204BA516D52AEE56890 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77BEC39A4D7866A6DC4FAE719323EDB /* Animations.swift */; };
 		A318DCD12DD60F179AEE1C744D59DF62 /* Pods-Open-BankTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 523CB59587612F873A3B31F5CEB15255 /* Pods-Open-BankTests-dummy.m */; };
 		A9197A0CBECAB58A0352D59DD3A5D9B0 /* Pods-Open-BankUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A93A696CDCAB7A2EE310C5C136CAD5A3 /* Pods-Open-BankUITests-dummy.m */; };
@@ -71,6 +75,10 @@
 		9B9753F90B091DAB5DF9AAAB1733B314 /* Pods-Open-Bank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Open-Bank.release.xcconfig"; sourceTree = "<group>"; };
 		9BD4A1BE1E2C66880030BB86 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = ../Fabric.framework; sourceTree = "<group>"; };
 		9BD4A1BF1E2C66880030BB86 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = ../Crashlytics.framework; sourceTree = "<group>"; };
+		9BD4A1C21E2C69870030BB86 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = ../Fabric.framework; sourceTree = "<group>"; };
+		9BD4A1C31E2C69870030BB86 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = ../Crashlytics.framework; sourceTree = "<group>"; };
+		9BD4A1C91E2C6FBA0030BB86 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = ../Fabric.framework; sourceTree = "<group>"; };
+		9BD4A1CA1E2C6FBA0030BB86 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = ../Crashlytics.framework; sourceTree = "<group>"; };
 		A0C04E472D82DD1DC7CFCCEBC68C5297 /* Pods-Open-BankUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Open-BankUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A93A696CDCAB7A2EE310C5C136CAD5A3 /* Pods-Open-BankUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Open-BankUITests-dummy.m"; sourceTree = "<group>"; };
 		A96E32F876B822B26E7B434E11193FE0 /* Pods-Open-Bank-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Open-Bank-resources.sh"; sourceTree = "<group>"; };
@@ -96,8 +104,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FDDB506659573F3A1A9436C2F7D763F /* Foundation.framework in Frameworks */,
+				9BD4A1C51E2C69870030BB86 /* Crashlytics.framework in Frameworks */,
 				9BD4A1C11E2C66880030BB86 /* Crashlytics.framework in Frameworks */,
 				9BD4A1C01E2C66880030BB86 /* Fabric.framework in Frameworks */,
+				9BD4A1C41E2C69870030BB86 /* Fabric.framework in Frameworks */,
+				9BD4A1CB1E2C6FBA0030BB86 /* Fabric.framework in Frameworks */,
+				9BD4A1CC1E2C6FBA0030BB86 /* Crashlytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +201,8 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
+				9BD4A1C21E2C69870030BB86 /* Fabric.framework */,
+				9BD4A1C31E2C69870030BB86 /* Crashlytics.framework */,
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				D91FEAE70316EE8A91F65526A35FC97E /* Pods */,
@@ -229,6 +243,8 @@
 		9FFC594198A57E352D731DC5A41EFBE4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				9BD4A1C91E2C6FBA0030BB86 /* Fabric.framework */,
+				9BD4A1CA1E2C6FBA0030BB86 /* Crashlytics.framework */,
 				9BD4A1BE1E2C66880030BB86 /* Fabric.framework */,
 				9BD4A1BF1E2C66880030BB86 /* Crashlytics.framework */,
 				93EA9F9A30FE269EAAB087506659D076 /* Pods-Open-Bank */,

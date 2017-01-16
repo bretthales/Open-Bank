@@ -16,6 +16,7 @@
 		9BD4A19A1E2C4B470030BB86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD4A1981E2C4B470030BB86 /* LaunchScreen.storyboard */; };
 		9BD4A1A51E2C4B470030BB86 /* Open_BankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD4A1A41E2C4B470030BB86 /* Open_BankTests.swift */; };
 		9BD4A1B01E2C4B470030BB86 /* Open_BankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD4A1AF1E2C4B470030BB86 /* Open_BankUITests.swift */; };
+		9BD4A1C71E2C6CD00030BB86 /* samurai-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD4A1C61E2C6CD00030BB86 /* samurai-icon.png */; };
 		F9569B7E3A2881F6C7548E60 /* Pods_Open_BankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CE36C3A914445678A7A1AF /* Pods_Open_BankUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		9BD4A1AB1E2C4B470030BB86 /* Open-BankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open-BankUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD4A1AF1E2C4B470030BB86 /* Open_BankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_BankUITests.swift; sourceTree = "<group>"; };
 		9BD4A1B11E2C4B470030BB86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD4A1C61E2C6CD00030BB86 /* samurai-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "samurai-icon.png"; path = "../../../../Downloads/samurai-icon.png"; sourceTree = "<group>"; };
 		9E21980BE27C43C41D982537 /* Pods-Open-Bank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open-Bank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Open-Bank/Pods-Open-Bank.debug.xcconfig"; sourceTree = "<group>"; };
 		AA32BE48BA3DC89D93B8AFA0 /* Pods-Open-BankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open-BankUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Open-BankUITests/Pods-Open-BankUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BF4F5E4EBC6C3C2B37880C4E /* Pods_Open_Bank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Open_Bank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,6 +145,7 @@
 				9BD4A1961E2C4B470030BB86 /* Assets.xcassets */,
 				9BD4A1981E2C4B470030BB86 /* LaunchScreen.storyboard */,
 				9BD4A19B1E2C4B470030BB86 /* Info.plist */,
+				9BD4A1C81E2C6CE20030BB86 /* Images */,
 			);
 			path = "Open-Bank";
 			sourceTree = "<group>";
@@ -163,6 +166,14 @@
 				9BD4A1B11E2C4B470030BB86 /* Info.plist */,
 			);
 			path = "Open-BankUITests";
+			sourceTree = "<group>";
+		};
+		9BD4A1C81E2C6CE20030BB86 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9BD4A1C61E2C6CD00030BB86 /* samurai-icon.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +296,7 @@
 				9BD4A19A1E2C4B470030BB86 /* LaunchScreen.storyboard in Resources */,
 				9BD4A1971E2C4B470030BB86 /* Assets.xcassets in Resources */,
 				9BD4A1951E2C4B470030BB86 /* Main.storyboard in Resources */,
+				9BD4A1C71E2C6CD00030BB86 /* samurai-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
